@@ -592,6 +592,7 @@ a.btn-theme:focus{
 
 .our-mission-text {
 	text-align: left;
+	font-size: 18px;
 }
 
 .first-mission-text {
@@ -1719,6 +1720,10 @@ a.btn-theme:focus{
 
 .fa-heart {
 	color: #FF5555;
+}
+
+.footer-text {
+	margin-bottom: 0;
 }
 
 #main-footer {
