@@ -590,7 +590,7 @@
 							</div>
 						</div><!-- End textarea -->
 
-						<p><button name="submit" type="submit" class="btn btn-theme btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-location-arrow"></i>Send Message</button></p>
+						<p><button name="submit" type="submit" class="btn btn-theme btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent" onclick="setTimeout(goToConfirmationPage, 3000)"><i class="fa fa-location-arrow"></i>Send Message</button></p>
 						<input type="hidden" name="submitted" id="submitted" value="true" />
 
 					</form><!-- End contact-form -->
@@ -674,6 +674,15 @@
 		<!-- ==============================================
 		SCRIPTS
 		=============================================== -->
+		<script>
+
+			function goToConfirmationPage() {
+				console.log('go to confirmation page now');
+				window.location.replace("http://stackoverflow.com");
+			}
+
+		</script>
+
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
 

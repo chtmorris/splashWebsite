@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /formSubmitted.html
+Disallow: /formSubmitted
+
+Allow: /
